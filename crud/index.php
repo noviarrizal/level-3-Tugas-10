@@ -17,7 +17,7 @@
 			$edit = mysqli_query($koneksi, "UPDATE produk set
 											 	nama_produk = '$_POST[nama]',
 											 	keterangan = '$_POST[keterangan]',
-												alamat = '$_POST[harga]',
+												harga = '$_POST[harga]',
 											 	jumlah = '$_POST[jumlah]',
 											    WHERE id = '$_GET[id]'
 										   ");
