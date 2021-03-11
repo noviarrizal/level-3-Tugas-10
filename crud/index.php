@@ -18,7 +18,7 @@
 											 	nama_produk = '$_POST[nama]',
 											 	keterangan = '$_POST[keterangan]',
 												harga = '$_POST[harga]',
-											 	jumlah = '$_POST[jumlah]',
+											 	jumlah = '$_POST[jumlah]'
 											    WHERE id = '$_GET[id]'
 										   ");
 			if($edit) //jika edit sukses
